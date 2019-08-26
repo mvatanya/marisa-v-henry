@@ -2190,11 +2190,12 @@ input, select, textarea {
 
 		}
 
-		.tech-icon {
+		/* .tech-icon {
 			list-style: none
-		}
+		} */
 
 		ul.tech-icon li{
+			list-style: none;
 			text-align: center;
 			display: inline-block;
 			font-size:12pt;
