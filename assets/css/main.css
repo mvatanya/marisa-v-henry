@@ -2189,3 +2189,13 @@ input, select, textarea {
 			}
 
 		}
+
+		.tech-icon {
+			list-style: none
+		}
+
+		ul.tech-icon li{
+			text-align: center;
+			display: inline-block;
+			font-size:12pt;
+		}
