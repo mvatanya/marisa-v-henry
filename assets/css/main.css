@@ -194,7 +194,8 @@ input,
 select,
 textarea {
   color: #666;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+  font-family: Cabinet Grotesk, sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
@@ -602,7 +603,7 @@ pre code {
 
 .row.gtr-150 {
   margin-top: 0;
-  margin-left: -3em;
+  /* margin-left: -3em; */
 }
 
 .row.gtr-150 > * {
@@ -2460,6 +2461,10 @@ input[type="radio"] + label:before {
   display: block;
 }
 
+.image img.circle {
+  border-radius: 50%;
+}
+
 .image.left {
   float: left;
   padding: 0 1.5em 1em 0;
@@ -2490,6 +2495,11 @@ input[type="radio"] + label:before {
 
 .image.fit img {
   width: 100%;
+}
+
+.image.fit.frame {
+  padding: 20px;
+  border: 2px solid black;
 }
 
 /* List */
@@ -2917,6 +2927,7 @@ button:disabled,
 
 .main.style1 {
   background: #fff;
+  border-top: 2px solid black;
 }
 
 .main.style2 {
@@ -2925,6 +2936,7 @@ button:disabled,
   background-attachment: fixed, fixed;
   /* background-image: url("images/overlay1.png"), url("../../images/header.jpg"); */
   background-size: auto, cover;
+  border-top: 2px solid black;
 }
 
 .main.style2 a {
@@ -3251,6 +3263,7 @@ body.is-preload #header:after {
   background-position: top left, center center, center center;
   background-size: auto, cover, cover;
   text-align: center;
+  border-top: 2px solid black;
 }
 
 #footer a {
