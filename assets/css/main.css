@@ -3457,6 +3457,10 @@ body.is-preload #header:after {
   padding: 0;
 }
 
+#footer .copyright.contact {
+  margin: 0.5em 0 0 0;
+}
+
 /* XLarge */
 
 @media screen and (max-width: 1680px) {
