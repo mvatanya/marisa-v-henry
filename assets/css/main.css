@@ -2497,7 +2497,8 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
-.image.fit.frame {
+.frame {
+  width: 100%;
   padding: 20px;
   border: 2px solid black;
 }
@@ -3216,6 +3217,11 @@ button:disabled,
   border-radius: 300px 300px 10px 10px;
 }
 
+.profile-pic-container-circle {
+  background-color: #fae0d8;
+  border-radius: 50%;
+}
+
 body.is-preload #header .inner {
   -moz-transform: scale(1.05);
   -webkit-transform: scale(1.05);
@@ -3249,6 +3255,79 @@ body.is-preload #header:after {
   font-weight: 800;
   display: inline-block;
   margin: 0 0 45px 0;
+}
+
+/* Timeline */
+.timeline-item {
+  grid-column-gap: 25px;
+  display: flex;
+}
+
+.timeline-info {
+  min-width: 160px;
+  flex: none;
+}
+
+.timeline-info.school {
+  min-width: 120px;
+}
+
+.timeline-info h4 {
+  font-size: 16px;
+}
+
+.timeline-marker {
+  border-left: 2px solid #1d1d1d;
+  position: relative;
+}
+
+.timeline-content {
+  margin-top: -6px;
+}
+
+.timeline-content h3 {
+  font-size: 20px;
+}
+
+.timeline-content p {
+  font-size: 16px;
+}
+
+.timeline-dot {
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #1d1d1d;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: -11px;
+  right: 0%;
+}
+
+.background-blue {
+  background-color: #e3f2ff;
+}
+
+.background-pink {
+  background-color: #fde4f9;
+}
+
+.background-green {
+  background-color: #f3ffe3;
+}
+
+.background-purple {
+  background-color: #e3e3ff;
+}
+
+.background-yellow {
+  background-color: #fdf8e1;
+}
+
+.background-orange {
+  background-color: #fdeac3;
 }
 
 /* Footer */
